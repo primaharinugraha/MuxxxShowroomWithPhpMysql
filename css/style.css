@@ -1,0 +1,233 @@
+.warna1{
+    background-color:#884A39 !important;
+}
+
+.warna2{
+    background-color: #C38154 !important;
+}
+
+.warna3{
+     background-color: #FFC26F !important;
+}
+
+.warna4{
+    background-color: #F9E0BB !important;
+}
+
+.fontcolor{
+    color:  #F9E0BB;
+}
+
+
+
+.input-group-lg .form-control {
+  
+    background-color: transparent; /* Atur latar belakang input menjadi transparan */
+    color: white;
+    
+}
+
+.highlight-Kategori{
+    height: 250px;
+    margin-right: 10px;
+}
+
+
+
+.kategori-terlaris-sedan{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../image/3kategorisedan.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+.kategori-terlaris-suv{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../image/3kategorisuv.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.kategori-terlaris-minivan{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../image/3kategoriminivan.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+/* produk terkait */
+
+.produkterkait-box{
+    height: 200px;
+}
+
+.produkterkait-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* carousel */
+.carousel-box{
+    height: 450px;
+}
+.carousel-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: black;
+}
+
+.no-decoration:hover{
+    color: #884A39;
+}
+
+.text-harga{
+    font-size: 20px;
+    color:#C38154;
+}
+
+/* button */
+.original-button {
+    display: block; /* Mengubah display menjadi block agar tombol dapat mengambil lebar maksimum */
+    margin: 0 auto; /* Menengahkan tombol dengan margin otomatis di sisi kiri dan kanan */
+    line-height: 1;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 30%; /* Mengatur lebar maksimum tombol, bisa disesuaikan dengan kebutuhan */
+    max-width: 200px; /* Menetapkan lebar maksimum yang lebih rendah jika diperlukan */
+    height: 40px;
+    font-weight: bold;
+    border-bottom: 4px solid #c79a06;
+    transition: 0.3s;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+    background-color: #daa807;
+}
+
+.original-button:hover {
+    box-shadow: 0 0 rgba(0, 0, 0, 0.4);
+    border-bottom-width: 2px;
+    transform: translateY(3px);
+}
+
+/* button telusuri */
+.button-telusuri{
+    display: block; /* Mengubah display menjadi block agar tombol dapat mengambil lebar maksimum */
+    margin: 0 auto; /* Menengahkan tombol dengan margin otomatis di sisi kiri dan kanan */
+    line-height: 1;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 30%; /* Mengatur lebar maksimum tombol, bisa disesuaikan dengan kebutuhan */
+    max-width: 200px; /* Menetapkan lebar maksimum yang lebih rendah jika diperlukan */
+    height: 50px;
+    font-weight: bold;
+    border-bottom: 4px solid #a76a41 ;
+    transition: 0.3s;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+    background-color: #C38154;
+}
+.button-telusuri:hover {
+    box-shadow: 0 0 rgba(0, 0, 0, 0.4);
+    border-bottom-width: 2px;
+    transform: translateY(3px);
+    
+}
+
+/* Media Query untuk tampilan mobile */
+@media only screen and (max-width: 768px) {
+    .original-button {
+        font-size: 14px; /* Mengurangi ukuran font pada tombol */
+        width: 80%; /* Mengatur lebar maksimum tombol untuk tampilan mobile */
+        max-width: 200px; /* Menghapus batasan lebar maksimum */
+    }
+
+    .button-telusuri{
+        font-size: 14px; /* Mengurangi ukuran font pada tombol */
+        width: 50%; /* Mengatur lebar maksimum tombol untuk tampilan mobile */
+        max-width: 110px;
+    }
+}
+  
+
+
+
+
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../image/bannr3.jpg');
+    background-size: cover;
+    background-position: center;
+  
+  }
+
+  .produk {
+    height: 65vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../image/produk.jpg');
+    background-position: 50% 60%;
+    background-size: cover;
+  }
+
+  
+  
+  .hovered-card {
+    transition: .2s;
+  }
+  
+  .hovered-card:hover {
+    transform: scale(1.1);
+  }
+
+
+  .image-box{
+    height: 300px;
+  }
+
+  .image-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.46);
+    text-align: left;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+@media (max-width: 555px) {
+    .carousel-caption {
+        padding: 3px;
+    }
+    .carousel-caption h3 {
+        font-size: 14px; /* Ukuran font judul */
+    }
+    .carousel-caption p {
+        font-size: 9px; /* Ukuran font teks */
+    }
+    .carousel-caption .btn {
+        font-size: 9px; /* Ukuran font tombol */
+        padding: 3px 8px; /* Padding tombol */
+    }
+}
+
+ol.carousel-indicators {
+    display: block;
+    left: auto;
+    bottom: 50px;
+    right: 15px;
+}
+.carousel-indicators li {
+    height: 5px;
+    background-color: #ffeb3b;
+    opacity: 0.6;
+}
+
+
+
